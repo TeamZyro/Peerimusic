@@ -38,8 +38,8 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002056007523))
-CHARA_CHANNEL_ID = getenv("CHARA_CHANNEL_ID", "-1002051009747")
+LOGGER_ID = int(getenv("LOGGER_ID", -1002155818429))
+CHARA_CHANNEL_ID = getenv("CHARA_CHANNEL_ID", "-1002155818429")
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 OWNER_ID = int(getenv("OWNER_ID", 6382664842))
