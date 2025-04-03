@@ -14,22 +14,22 @@ API_HASH = getenv("API_HASH", "b9c764ce47c010e1a887f19fea54f648")
 
 EVAL = list(map(int, getenv("EVAL", "6301302395 7638720582").split()))
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN", "8178084489:AAEAsq1NCtkQa2w8vV2WuG3PstVUZsh0PzU")
+BOT_TOKEN = getenv("BOT_TOKEN", "8150175926:AAFAsFNljD7DEajMyX9BnqfjkTh0lF2DVC0")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","Orewa_KANISH")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "its_prime00")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "Alisa_Kujou_Music_Bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Prime_Musicc_bot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "alisa")
+BOT_NAME = getenv("BOT_NAME" , "PRIME MUSIC")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "Alisa_Kujou")
+ASSUSERNAME = getenv("ASSUSERNAME" , "PRIME ASS")
 # ---------------------------------------------------------
 
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://bikash:bikash@bikash.3jkvhp7.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = getenv("DB_NAME", "Zyro")
+DB_NAME = getenv("DB_NAME", "Zyro2")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -42,7 +42,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", -1002155818429))
 CHARA_CHANNEL_ID = getenv("CHARA_CHANNEL_ID", "-1002155818429")
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 6382664842))
+OWNER_ID = int(getenv("OWNER_ID", 7172285282))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 # ----------------------------------------------------------------
