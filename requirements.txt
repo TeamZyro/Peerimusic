@@ -72,6 +72,6 @@ MukeshAPI
 youtube-search
 youtube-search-python
 git+https://github.com/KurimuzonAkuma/pyrogram.git
-git+https://github.com/yt-dlp/yt-dlp.git
+yt-dlp
 git+https://github.com/AsmSafone/SafoneAPI
 python-telegram-bot
