@@ -9,12 +9,12 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = getenv("API_ID", "24965086")
-API_HASH = getenv("API_HASH", "b9c764ce47c010e1a887f19fea54f648")
+API_ID = getenv("API_ID", "")
+API_HASH = getenv("API_HASH", "")
 
-EVAL = list(map(int, getenv("EVAL", "6301302395 7638720582").split()))
+EVAL = list(map(int, getenv("EVAL", "0000000 0000000").split()))
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN", "8150175926:AAFAsFNljD7DEajMyX9BnqfjkTh0lF2DVC0")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME", "its_prime00")
 # --------------------------------------------------------
@@ -28,7 +28,7 @@ ASSUSERNAME = getenv("ASSUSERNAME" , "PRIME ASS")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://bikash:bikash@bikash.3jkvhp7.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 DB_NAME = getenv("DB_NAME", "Zyro2")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -70,8 +70,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/primeworldmusic")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/primeworldmusicc")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -117,7 +117,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", "BQGP6NEAUWWY5puBlZ8kOMRkQpz_GW1Kl-4VdTg3SBrfXOuj1HsJUP96z58lANfDSHd8VJXVEvR9bbHuAleFXXmQzf1uUxPvnxztqFQPjVKQfnKjvL-QPyAWBpGdSTPox4UsO8n2HlnXcr7DyT3N2nAo5Ayl94v2ULGOn5crqiIszlCYJape0oTOD4x5PiDtRkJVrXZ-EQPbFcL-GNFS4yigD5WK10trdRM1CDMcAFVm3JdVhLYEeqp5hiqwX7fAfvhxqNFSdDoH1LHZS45QBTsEg3LQPPDrmSDQ2ZsEsgp1Ky3cHxJYmG2-rDzF44z1p9e6_2vycIY_ac9ye8CPmSrmS7WHywAAAAGtDvQlAA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
